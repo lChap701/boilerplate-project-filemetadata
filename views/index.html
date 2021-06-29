@@ -16,10 +16,13 @@
         <p>
           Please Upload a File ...
         </p>
+        <p>
+          <b>Note</b>: These files will be stored, so please don't upload personal files!
+        </p>
         <div class="view">
           <h4 id="output"></h4>
           <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
-            <input id="inputfield" type="file" name="upfile">
+            <input id="inputfield" type="file" name="upfile" required>
             <input id="button" type="submit" value="Upload">
           </form>
         </div>
@@ -28,6 +31,10 @@
         <p>
           by 
           <a href="http://www.freecodecamp.com">freeCodeCamp</a>
+        </p>
+        <p>
+          Modified by <a 
+          href="https://www.freecodecamp.org/fcca68b68fb-330b-45f5-b626-d69c68cc6b2d">Lucas Chapman</a>
         </p>
       </div>
    </body>
