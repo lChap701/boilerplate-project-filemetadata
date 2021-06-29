@@ -22,7 +22,7 @@ function middleware(req, res, next) {
   // Displays file info
   res.json({ 
     name: req.file.originalname,
-    mimetype: req.file.mimetype,
+    type: req.file.mimetype,
     size: req.file.size
   })
   
